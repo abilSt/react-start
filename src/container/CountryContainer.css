@@ -1,0 +1,28 @@
+img {
+  width:75px;
+}
+ul{
+  margin:0;
+  padding:10px;
+  background-color:rgb(161,161,161);
+}
+li{
+  display:flex; 
+  align-items:center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  background-color: white;
+}
+/* onToggleDone = (id) => {
+  this.setState(({ todoData }) => {
+    const idx = todoData.findIndex(el => el.id === id);
+    const oldItemd = todoData[idx];
+    const newItemd = { ...oldItemd, done: !oldItemd.done };
+    const newArrayd = [...todoData.slice(0, idx),
+      newItemd, 
+       ...todoData.slice(idx + 1)];
+    return {
+      todoData: newArrayd
+    };
+  });
+}; */
